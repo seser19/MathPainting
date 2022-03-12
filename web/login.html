@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数字国画</title>
+
+    <!-- 引入图标字体 -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/loginmain.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+</head>
+<body>
+
+    <div>
+    <!-- 创建封装容器 -->
+        <div class="container" id="container">
+
+            <!-- 注册页面 -->
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>sign up</h1>
+                    <!-- 公共组件 -->
+                    <div class="social-container">
+                        <a href="#"><i class="fab fa-qq"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                    </div>
+                    <input type="text" name="userName" id="userName" placeholder="userName...">
+                    <input type="email" name="email" id="email" placeholder="Email...">
+                    <input type="password" name="password" id="password" placeholder="Password...">
+                    <button>sign up</button>
+                </form>
+            </div>
+
+            <!-- 登录页面 -->
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>sign in</h1>
+                    <!-- 公共组件 -->
+                    <div class="social-container">
+                        <a href="#"><i class="fab fa-qq" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-weibo"></i></a>
+                    </div>
+                    <input type="email" name="email" placeholder="Email..." >
+                    <input type="password" name="password" placeholder="Password...">
+                    <a href="#" class="forget">forget your password</a>
+                    <button>sign in</button>
+                </form>
+            </div>
+
+            <!-- 覆盖容器 -->
+            <div class="overlay-container">
+                <div class="overlay">
+
+                    <!-- 覆盖左边 -->
+                    <div class="overlay-penal overlay-left-container">
+                        <h1>welcome back!</h1>
+                        <p>
+                            To keep connected with us please login with your personal info
+                        </p>
+                        <button class="ghost" id="signIn">sign in</button>
+                    </div>
+
+                    <!-- 覆盖右边 -->
+                    <div class="overlay-penal overlay-right-container">
+                        <h1>Hello Friend!</h1>
+                        <p>
+                            Enter your personal details and start journey with us
+                        </p>
+                        <button class="ghost" id="signUp">sign up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-box">
+            <a href="index.html" class="bottom-letter">数字国画</a>
+        </div>
+    </div>
+
+<script src="js/loginmain.js"></script>
+
+
+</body>
+</html>
